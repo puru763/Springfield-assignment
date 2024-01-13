@@ -1,0 +1,22 @@
+.radio-btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    margin:2rem;
+}
+.invalid-data{
+    font-size: 0.7rem;
+    font-family: sans-serif;  
+    margin-top: 1rem;
+    color: red;
+}
