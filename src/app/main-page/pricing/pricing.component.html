@@ -1,1 +1,112 @@
-<p>pricing works!</p>
+<div class="pricing-page">
+    <div class="sub-header">
+        <span class="sub-header-txt"> Check it out our Pricing</span>
+    </div>
+
+    <div class="row pricing">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="price-card mt-2" (click)="setActive('Any One')">
+                <div class="count-div" [ngClass]="currentType=='Any One'?'active-count-div':'inactive-count-div'">
+                    Any One
+                </div>
+                <div class="offer">
+                    <div class="price-div">
+                        <div class="price-amount">
+                            <div class="price-logo">₹</div>
+                            249
+                        </div>
+                        <div class="cancelled-price">
+                            ₹300
+                        </div>
+                    </div>
+                    <div class="description">
+                        Participate in any one <br>
+                        of the four Olympiads <br>
+                        of your choice.
+                    </div>
+                </div>
+                <div class="action" [ngClass]="currentType=='Any One'?'active-action':'inactive-action'">
+                    <button class="buy">Buy now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="price-card mt-2" (click)="setActive('Any Two')">
+                <div class="count-div" [ngClass]="currentType=='Any Two'?'active-count-div':'inactive-count-div'">
+                    Any Two
+                </div>
+                <div class="offer">
+                    <div class="price-div">
+                        <div class="price-amount">
+                            <div class="price-logo">₹</div>
+                            449
+                        </div>
+                        <div class="cancelled-price">
+                            ₹300
+                        </div>
+                    </div>
+                    <div class="description">
+                        Participate in any two <br>
+                        of the four Olympiads <br>
+                        of your choice.
+                    </div>
+                </div>
+                <div class="action" [ngClass]="currentType=='Any Two'?'active-action':'inactive-action'">
+                    <button class="buy">Buy now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="price-card mt-2" (click)="setActive('Any Three')">
+                <div class="count-div" [ngClass]="currentType=='Any Three'?'active-count-div':'inactive-count-div'">
+                    Any Three
+                </div>
+                <div class="offer">
+                    <div class="price-div">
+                        <div class="price-amount">
+                            <div class="price-logo">₹</div>
+                            649
+                        </div>
+                        <div class="cancelled-price">
+                            ₹300
+                        </div>
+                    </div>
+                    <div class="description">
+                        Participate in any three <br>
+                        of the four Olympiads <br>
+                        of your choice.
+                    </div>
+                </div>
+                <div class="action" [ngClass]="currentType=='Any Three'?'active-action':'inactive-action'">
+                    <button class="buy">Buy now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="price-card mt-2" (click)="setActive('All')">
+                <div class="count-div" [ngClass]="currentType=='All'?'active-count-div':'inactive-count-div'">
+                    All
+                </div>
+                <div class="offer">
+                    <div class="price-div">
+                        <div class="price-amount">
+                            <div class="price-logo">₹</div>
+                            839
+                        </div>
+                        <div class="cancelled-price">
+                            ₹300
+                        </div>
+                    </div>
+                    <div class="description">
+                        Participate in all four <br>
+                        of the four Olympiads <br>
+                        at great price.
+                    </div>
+                </div>
+                <div class="action" [ngClass]="currentType=='All'?'active-action':'inactive-action'">
+                    <button class="buy">Buy now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

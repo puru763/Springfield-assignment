@@ -6,17 +6,21 @@
 .header {
   font-size: 1.5rem;
   font-family: sans-serif;
-  font-weight: 500;
-  color: #106eea;
+  font-weight: 600;
+  color: #15396b;
 }
 
 .sub-header {
   font-size: 1.2rem;
   font-family: sans-serif;
   font-weight: 400;
+  color: #15396b;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
 }
 .sub-header-txt{
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #15396b;
 }
 label {
   font-size: 0.9rem;
@@ -24,7 +28,7 @@ label {
 }
 
 .action-btn {
-  background-color: #106eea;
+  background-color: #15396b;
   color: white;
   border: none;
   border-radius: 5px;
